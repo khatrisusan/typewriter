@@ -20,7 +20,7 @@ function typewriter(){
         clearTime();
         
     }
-    letter = text.substr(0, counter);
+    letter = text.substring(0, counter);
     
     
     document.querySelector(".typewritten").textContent = "";
